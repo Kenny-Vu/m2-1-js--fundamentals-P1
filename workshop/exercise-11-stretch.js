@@ -11,3 +11,20 @@
 // _#_#_#_#
 // #_#_#_#_
 // _#_#_#_#
+
+
+for (let row = 0; row<8;row++){
+    let square = '';
+    for (let col = 0; col<8;col++){
+        if(row%2 === 0 && col%2 === 0){
+            square = square + '#';
+        } if((row%2 === 0 && col%2 !== 0)) {
+            square = square + '_';
+        } if((row%2 !== 0 && col%2 == 0)) {
+            square = square + '_';
+        } if((row%2 !== 0 && col%2 !== 0)) {
+            square = square + '#';
+        }
+    } 
+    console.log(square);
+}
