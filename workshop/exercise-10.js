@@ -7,3 +7,9 @@
 // #####
 // ######
 // #######
+
+let square = ''
+for (let row = 0;row<7;row++){
+    square = square +'#';
+    console.log(square);
+}
