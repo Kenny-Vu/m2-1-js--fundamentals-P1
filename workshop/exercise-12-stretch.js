@@ -12,3 +12,9 @@
 // NOTE: 1 and 2 are both prime numbers.
 
 // EXPECTED OUTPUT: [1, 2, 3, 5, 7, 11, 13, ...]
+
+for (let num = 1;num<201;num++){
+    if((num%2 !==0)&&(num%3 !==0)){
+        console.log(num);
+    }
+}
